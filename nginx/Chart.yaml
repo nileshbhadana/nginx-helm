@@ -1,0 +1,15 @@
+annotations:
+  category: Infrastructure
+apiVersion: v2
+appVersion: 1.21.0
+description: Chart for the Nginx
+keywords:
+- nginx
+maintainers:
+- email: nileshbhadana3@gmail.com
+  name: Nilesh
+name: nginx
+sources:
+- https://hub.docker.com/_/nginx
+- http://www.nginx.org
+version: 1.0.0

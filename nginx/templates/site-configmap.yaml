@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ template "common.names.fullname" . }}-site
+  labels: {{- include "common.labels.standard" . | nindent 4 }}
+data:
+{{- if .Values.staticSite }}
+  index.html: |-
+{{ .Values.staticSite | indent 4 }}
+{{- end }}

@@ -3,7 +3,7 @@
 ### 📜 Prerequisites
 
 - Helm cli v3
-    >Refer [this](https://helm.sh/docs/intro/install/) document to install docker
+    >Refer [this](https://helm.sh/docs/intro/install/) document to install helm
 
 - Kubernetes cluster configured.
 ---

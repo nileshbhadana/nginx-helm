@@ -29,7 +29,7 @@
     tar -xvf nginx-1.0.0.tgz
     ```
 
-Thats it now you can find the chart in nginx folder and customize it
+Now you can find the chart in `nginx` folder and customize it using your favourite editor. 
 
 ---
 ### Changing configuration
